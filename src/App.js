@@ -63,7 +63,7 @@ function App() {
 
               }}>
                 <Routes>
-                  <Route path="/" element={<Home />} />
+                  <Route path="/projecthubweb/" element={<Home />} />
                   <Route path="service" element={<Services />} />
                   <Route path="contact" element={<Contact />} />
                   <Route path="Feedback" element={<Feedback />} />
