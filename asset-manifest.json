@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projecthubweb/static/css/main.7bffa1e9.css",
-    "main.js": "/projecthubweb/static/js/main.f8be75fa.js",
+    "main.js": "/projecthubweb/static/js/main.dca90fe4.js",
     "static/js/787.b52339d9.chunk.js": "/projecthubweb/static/js/787.b52339d9.chunk.js",
     "static/media/reviewpic.png": "/projecthubweb/static/media/reviewpic.a35b6a0eb62b9b3c5afc.png",
     "static/media/HomePage.jpg": "/projecthubweb/static/media/HomePage.00bbcd572d7455d539bc.jpg",
@@ -9,11 +9,11 @@
     "static/media/AppLogo.png": "/projecthubweb/static/media/AppLogo.8447de8b2f3240ac9a17.png",
     "index.html": "/projecthubweb/index.html",
     "main.7bffa1e9.css.map": "/projecthubweb/static/css/main.7bffa1e9.css.map",
-    "main.f8be75fa.js.map": "/projecthubweb/static/js/main.f8be75fa.js.map",
+    "main.dca90fe4.js.map": "/projecthubweb/static/js/main.dca90fe4.js.map",
     "787.b52339d9.chunk.js.map": "/projecthubweb/static/js/787.b52339d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7bffa1e9.css",
-    "static/js/main.f8be75fa.js"
+    "static/js/main.dca90fe4.js"
   ]
 }
