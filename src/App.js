@@ -25,7 +25,7 @@ function App() {
   }, []);
   async function getAutherUserDetails(userValue) {
     const auth = getAuth();
-    await onAuthStateChanged(auth, (user) => {
+    onAuthStateChanged(auth, (user) => {
       if (user) {
         const uid = user.uid;
         const email = user.email
