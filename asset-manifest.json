@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/projecthubweb/static/css/main.073c9b0a.css",
+    "main.js": "/projecthubweb/static/js/main.8401676a.js",
+    "static/js/787.b52339d9.chunk.js": "/projecthubweb/static/js/787.b52339d9.chunk.js",
+    "static/media/logo.svg": "/projecthubweb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/projecthubweb/index.html",
+    "main.073c9b0a.css.map": "/projecthubweb/static/css/main.073c9b0a.css.map",
+    "main.8401676a.js.map": "/projecthubweb/static/js/main.8401676a.js.map",
+    "787.b52339d9.chunk.js.map": "/projecthubweb/static/js/787.b52339d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.8401676a.js"
+  ]
+}
