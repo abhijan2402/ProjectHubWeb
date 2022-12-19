@@ -45,7 +45,7 @@ function App() {
       {
         !userUid ?
           <Routes>
-            <Route path="/" element={<Login />} />
+            <Route path="/projecthubweb/" element={<Login />} />
             <Route path="/sign" element={<Signup />} />
             <Route path="/ForgotPassword" element={<ForgotPassword />} />
           </Routes> :
