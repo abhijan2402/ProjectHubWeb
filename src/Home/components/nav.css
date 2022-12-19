@@ -1,0 +1,18 @@
+.link {
+    color: "red";
+    /* background-color: aqua; */
+    color: '#FFF';
+    list-style: none;
+    text-decoration: none;
+    color: Orange;
+    font-size: 40px;
+    padding: 15% 0%
+}
+
+.link:hover {
+    color: rgb(255, 96, 5)
+}
+
+.link:active {
+    color: rgb(255, 38, 0);
+}

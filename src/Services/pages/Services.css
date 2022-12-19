@@ -1,0 +1,354 @@
+.Popper-div1 {
+    margin: auto;
+    width: auto;
+    width: 50%;
+    background-color: white;
+    /* margin: 1% 5%; */
+    margin-left: 25%;
+    margin-right: 25%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 17%;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* background-color: rgb(223, 211, 195); */
+    background-color: rgb(252, 203, 112);
+
+}
+
+.PopperContent1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title-div-container1 {
+    background-color: #FF7A00;
+    border-radius: 5px;
+    color: white;
+    width: 20%;
+    height: 50px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 50%;
+    transform: translateX(-50%); */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.Image {
+    width: 100%;
+    height: 230px;
+    max-height: 50%;
+    border-radius: 10px;
+}
+
+.contact-div {
+    margin: auto;
+    width: auto;
+}
+
+.contact-btn {
+    border: 1px solid orange;
+    padding: 15px;
+    background-color: #FF7A00;
+    color: white;
+    border-radius: 8px;
+    font-size: 27px;
+    margin: 2% 10px;
+    width: 30%;
+}
+
+.para {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    align-self: center;
+    text-align: center;
+}
+
+.btn {
+    width: 80%;
+    border-color: #ffae4f;
+    padding: 10px;
+    border: 1px solid #ffae4f;
+    border-radius: 7px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: #ffae4f;
+    border: 1px solid white;
+}
+
+.h3 {
+    font-size: 25px;
+}
+
+.innerflex {
+    border: 1px solid rgb(107, 66, 66);
+}
+
+.SideBox {
+    border: 1px solid red;
+}
+
+.MainPortion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    padding: 2%;
+}
+
+.innerMainPortion {
+    margin: auto;
+    width: auto;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.innerMainPortion1 {
+    margin: auto;
+    width: auto;
+    width: 55%;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    border-radius: 15px;
+    background-Color: #ffe7cb;
+    box-shadow: 3px 3px 15px 5px lightgray;
+}
+
+.Card {
+    margin: auto;
+    width: auto;
+    width: 90%;
+    padding: 1% 3% 2% 3%;
+    border-radius: 10px;
+    background-color: #ffe7cb;
+    justify-content: center;
+    box-shadow: 3px 3px 15px 5px lightgray;
+
+}
+
+.MainImage {
+    padding-top: 5%;
+    width: 100%;
+}
+
+.BoxOption {
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin: auto;
+    width: auto;
+    justify-content: center;
+    padding: 2%
+}
+
+.InfoText {
+    font-size: 20px;
+    margin: 0px 3% 0px 0px;
+    font-weight: bolder;
+}
+
+.Sidebtn {
+    margin: auto;
+    width: auto;
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Option {
+    width: 20%;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.TopMain {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.InnerTopMain {
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+.Servicebox {
+    margin: auto;
+    width: auto;
+    background-color: #ffae4f;
+    width: 15%;
+    border-radius: 9px;
+}
+
+.scrool-container {
+    width: 25%;
+    height: 500px;
+    background-color: #F2EFEF;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(138, 138, 138, 0.2);
+    border: 2px solid rgb(224, 224, 224);
+    padding: 10px;
+    overflow: scroll;
+}
+
+.TechName {
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin: auto;
+    width: auto;
+    margin: 1% 1.6%;
+    padding: 1% 1%;
+}
+
+.TechDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 800px) and (max-width:1000px) {
+    .innerMainPortion {
+        width: 100%;
+    }
+
+    .Card {
+        width: 90%;
+    }
+
+    .TechName {
+        margin: 1% 1%;
+        padding: 1% 0.5%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:800px) {
+    .innerMainPortion {
+        width: 100%;
+    }
+
+    .Card {
+        width: 95%;
+    }
+
+    .Image {
+        width: 95%;
+        height: 200px;
+    }
+
+    .btn {
+        width: 90%;
+    }
+
+    .Sidebtn {
+
+        width: 80%;
+    }
+
+    .TechDetails {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        flex-wrap: wrap;
+    }
+
+    .TechName {
+        margin: 2% 1%;
+        padding: 1% 0.5%;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width:600px) {
+    .innerMainPortion {
+        width: 90%;
+    }
+
+    .Card {
+        width: 100%;
+    }
+
+    .Image {
+        width: 95%;
+        height: 200px;
+    }
+
+    .btn {
+        width: 90%;
+    }
+
+    .Sidebtn {
+
+        width: 80%;
+    }
+
+    .MainPortion {
+        display: block;
+    }
+
+    .innerMainPortion1 {
+        margin: auto;
+        width: auto;
+        width: 90%;
+        padding: 10px 0px 2px 0px;
+    }
+
+    .contact-btn {
+        width: 60%;
+    }
+
+    .TechName {
+        margin: 3% 1%;
+        padding: 1% 0.5%;
+    }
+
+    .scrool-container {
+        margin: auto;
+        width: auto;
+        width: 85%;
+        margin-bottom: 10%;
+    }
+
+    .TopMain {
+        margin: auto;
+        width: auto;
+        width: 50%;
+        border-radius: 9px;
+    }
+
+    .title-div-container1 {
+        background-color: #FF7A00;
+        border-radius: 5px;
+        color: white;
+        margin: auto;
+        width: auto;
+        width: 90%;
+        height: 50px;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10%;
+    }
+}

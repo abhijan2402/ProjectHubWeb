@@ -1,0 +1,59 @@
+.OrderMainPage {
+    /* border: 1px solid black; */
+    border-radius: 7px;
+    box-shadow: 2px 1px 5px 3px rgb(105, 104, 102);
+    margin: 2% 8%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 1.5% 10px;
+}
+
+.OrderDetailDiv {
+    width: 30%;
+    margin: 1% 1%;
+}
+
+.OrderDetailDiv1 {
+    width: 80%;
+    margin: 1% 1%;
+}
+
+.OrderImg {
+    width: 90%;
+    height: 180px;
+    box-shadow: 3px 2px 10px 2px rgb(117, 113, 113);
+    border-radius: 6px;
+}
+
+.OrderDetailPrice {
+    justify-content: center;
+    border: 1px solid red;
+}
+
+@media screen and (min-width: 300px) and (max-width:550px) {
+    .OrderMainPage {
+        /* border: 1px solid black; */
+        border-radius: 7px;
+        box-shadow: 2px 1px 5px 3px rgb(105, 104, 102);
+        margin: 5% 8%;
+        display: block;
+    }
+
+    .OrderDetailDiv {
+        width: 100%;
+        text-align: center;
+        margin: 1% 1%;
+        flex-direction: row;
+    }
+
+    .OrderDetailDiv1 {
+        width: 80%;
+        margin: 1% 1%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-left: 10%;
+    }
+}

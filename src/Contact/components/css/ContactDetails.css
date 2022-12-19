@@ -1,0 +1,64 @@
+.Main-div {
+    background-color: #FFE7CB;
+    margin: auto;
+    width: auto;
+    border-radius: 15px;
+    border: 1px solid black;
+    border: none;
+    padding: 10px;
+    width: 33%;
+    box-shadow: 3px 3px 15px 5px lightgray;
+
+}
+
+.AdminImg {
+    width: 40%;
+    height: 40%;
+    margin-top: 30px;
+}
+
+.Img-div {
+    /* border: 1px solid red; */
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.Contact-Maindiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px;
+    /* border: 1px solid red; */
+}
+
+.Name-div {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Post-div {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.Bottom-info {
+    font-size: 17px;
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+
+@media screen and (min-width: 300px) and (max-width:700px) {
+
+    .Name-div {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .Post-div {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}

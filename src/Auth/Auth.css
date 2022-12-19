@@ -1,0 +1,102 @@
+.app-logo-image {
+    width: 70px;
+    height: 70px;
+}
+
+.page-title {
+    color: rgb(27, 26, 26);
+    font-weight: bold;
+}
+
+.title-container1 {
+    padding: 5px;
+    width: 100%;
+}
+
+.custom-input1 {
+    width: 100%;
+    height: 30px;
+}
+
+.input-label {
+    font-weight: bold;
+    color: black;
+}
+
+.input-field-container {
+    padding: 10px;
+}
+
+.check-box {
+    height: 20px;
+    width: 20px;
+}
+
+.custon-button1 {
+    width: 100%;
+    height: 50px;
+    background-color: #FF7A00;
+    color: white;
+    border: 2px solid #f49237;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.main-container1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.main-container_1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.AuthImage {
+    width: 40%;
+}
+.custon-input_1{
+    width: 350px;
+    height: 40px;
+}
+.custon-button_1{
+    background-color: #FF7A00;
+    color: white;
+    border: 2px solid #f49237;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+@media screen and (min-width: 300px) and (max-width:700px) {
+    .AuthImage {
+        display: none;
+    }
+
+    .main-container1 {
+        display: block;
+        flex-direction: column;
+        margin: auto;
+        width: auto;
+        width: 100%;
+        /* height: 90vh; */
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* text-align: center; */
+        align-items: center;
+        border: 1px solid red;
+    }
+
+
+}
+
+@media screen and (min-width: 300px) and (max-width:500px) {
+    .input-label {
+        font-weight: bold;
+        color: black;
+        font-size: 14px;
+    }
+}
